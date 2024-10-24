@@ -69,7 +69,6 @@ images:
   targets:
     - ${TARGET_OUT_LINUX}/extauthz
 
-# TODO(https://github.com/istio/istio/issues/38224)
 - name: app_sidecar_rockylinux_9
   dockerfile: pkg/test/echo/docker/Dockerfile.app_sidecar_centos_8
   files:
